@@ -1,0 +1,150 @@
+/*importando fontes*/
+@font-face {
+    font-family: opensans;
+    src: url(../fontes/static/OpenSans/OpenSans-Regular.ttf);
+  }
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'opensans';
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/loginBackground.gif);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+}
+
+body .container-1{
+    margin-top: 100px;
+    width: 370px;
+    height: 630px;
+}
+
+body .logo{
+    width: 370px;
+    display: flex;
+    justify-content: center;
+}
+
+body .signText{
+    width: 370px;
+
+    display: flex;
+    justify-content: center;
+}
+
+body h1{
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+}
+
+body .quadro{
+    width: 370px;
+    height: 280px;
+
+    margin-top: 15px;
+
+    background-color: #3C5AAC;
+
+    box-shadow: 0px 0px 15px white;
+
+    border-style: none;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body .quadro .userText{
+    width: 330px;
+    height: 25px;
+    margin-top: 35px;
+    
+    color: white;
+    font-size: 18px;
+}
+
+body .quadro input{
+    width: 330px;
+    height: 45px;
+
+    font-size: 18px;
+    color: rgb(75, 135, 155);
+
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px; 
+}
+
+body .quadro .passwordText{
+    width: 330px;
+    height: 25px;
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+body .quadro .passwordTextItem1{
+    width: 165px;
+    height: 25px;
+
+    color: white;
+    font-size: 18px;
+ 
+}
+body .quadro .passwordTextItem2{
+    width: 165px;
+    height: 25px;
+
+    color: rgb(10, 25, 80);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+body .quadro .passwordTextItem2:hover{
+    opacity: 50%;
+}
+
+body .quadro .signButton{
+    width: 330px;
+    height: 45px;
+    margin-top: 15px;
+   
+    background-color: #FF3333;
+
+    border-style: none;
+    border-radius: 10px;  
+    
+    color:white;
+    font-size: 18px;
+}
+
+body .quadro .signButton:hover{
+    opacity: 50%;
+}
+
+body .cadButton{
+    width: 370px;
+    height: 75px;
+
+    margin-top: 30px;
+    background-color: #FF3333;
+    box-shadow: 0px 0px 15px white;
+
+    border-style: none;
+    border-radius: 10px;  
+    
+    color:white;
+    font-size: 18px;
+}
+
+body .cadButton:hover{
+    opacity: 50%;
+}

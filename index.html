@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="autor" content="Adriano Mariot">
+    <meta name="Keywords" content="Html, CSS, JavaScript">
+    <meta name="description" content="Programador Full Stack, Senai">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mania - Login</title>
+    <link rel="stylesheet" href="./CSS/stylesLogin.css">
+</head>
+
+<body>
+    <!-- container-1 -->
+    <div class="container-1">
+        <!-- container LOGO -->
+        <div class="logo">
+            <img src="./images/LOGO.svg" alt="" width="300px" height="180px">
+        </div>
+
+        <!-- container texto abaixo do logo -->
+        <div class="signText">
+            <h1> Sing in to Game Mania </h1>
+        </div>
+
+        <!-- container box loggin -->
+        <div class="quadro">
+            <!-- container texto user -->
+            <div class="userText">
+                <p>E-mail Adress.</p>
+            </div>
+            <!-- container input user -->
+            <div>
+                <input type="text" id="email" placeholder="Endereço de e-mail">
+            </div>
+            <!-- container texto password forgot password-->
+            <div class="passwordText">
+                <p class="passwordTextItem1"> Password</p>
+                <nav>
+                    <a class="passwordTextItem2" id="passwordTextItem2" href="#">Forgot password?</a>
+                </nav>
+            </div>
+            <!-- container input senha -->
+            <div>
+                <input type="text" id="senha" placeholder="********">
+            </div>
+            <!-- container sign -->
+            <div>
+                <button class="signButton" id="sign"> Sing </button>
+            </div>
+        </div>
+
+        <!-- container não tem cadastro -->
+        <div >
+            <button class="cadButton" id="cadButton"> Não tem conta? Criar conta.</button>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./JS/javascript.js"></script>
+
+</body>
+
+</html>
