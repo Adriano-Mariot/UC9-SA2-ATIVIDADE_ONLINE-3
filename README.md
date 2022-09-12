@@ -2,6 +2,6 @@
 
 ## SA2 - atividade online 3
 
-ImplementaÁ„o de funcionalidades na p·gina de Login do site, para layout de desktop, aplicando a linguagem de programaÁ„o JavaScript. 
+Implementa√ß√£o de funcionalidades na p√°gina de Login do site, para layout de desktop, aplicando a linguagem de programa√ß√£o JavaScript. 
 
-
+Link para acessar a [Pagina de Login Game Mania](https://adriano-mariot.github.io/UC9-SA2-ATIVIDADE_ONLINE-3/).
